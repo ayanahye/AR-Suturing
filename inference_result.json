@@ -1,0 +1,91 @@
+[
+    {
+        "inference_id": "79b7638c-75e1-4121-8930-c440ec4d9b17",
+        "time": 0.036238298999705876,
+        "image": {
+            "width": 640,
+            "height": 640
+        },
+        "predictions": [
+            {
+                "x": 335.5,
+                "y": 181.0,
+                "width": 211.0,
+                "height": 88.0,
+                "confidence": 0.7167959213256836,
+                "class": "0",
+                "class_id": 0,
+                "detection_id": "9fc4ac79-bf99-49f3-9ad6-c39a98fd7795"
+            }
+        ]
+    },
+    {
+        "inference_id": "e10df82a-d3e9-4ae9-aba3-52b1048134ba",
+        "time": 0.03556170500087319,
+        "image": {
+            "width": 640,
+            "height": 640
+        },
+        "predictions": [
+            {
+                "x": 155.5,
+                "y": 341.5,
+                "width": 191.0,
+                "height": 155.0,
+                "confidence": 0.6529257297515869,
+                "class": "0",
+                "class_id": 0,
+                "detection_id": "120b9276-dc82-478c-aedf-83d1eb06dc90"
+            }
+        ]
+    },
+    {
+        "inference_id": "20117086-f657-429b-b4b9-2762d721f02d",
+        "time": 0.033010414999807836,
+        "image": {
+            "width": 640,
+            "height": 640
+        },
+        "predictions": [
+            {
+                "x": 274.5,
+                "y": 291.5,
+                "width": 41.0,
+                "height": 65.0,
+                "confidence": 0.8492471575737,
+                "class": "0",
+                "class_id": 0,
+                "detection_id": "6bcbb7e8-0d3d-49ab-a5c0-b5844ac7e700"
+            }
+        ]
+    },
+    {
+        "inference_id": "34b89560-1d7c-4849-abbf-dfb718926017",
+        "time": 0.03433594400121365,
+        "image": {
+            "width": 640,
+            "height": 640
+        },
+        "predictions": [
+            {
+                "x": 436.0,
+                "y": 387.0,
+                "width": 246.0,
+                "height": 330.0,
+                "confidence": 0.8634315133094788,
+                "class": "0",
+                "class_id": 0,
+                "detection_id": "5f171787-2503-415d-8543-994cbfe4ba7e"
+            }
+        ]
+    },
+    {
+        "inference_id": "d3514e98-a14d-4f08-9f23-5896d7358af7",
+        "time": 0.03554764000000432,
+        "image": {
+            "width": 640,
+            "height": 640
+        },
+        "predictions": []
+    }
+]
