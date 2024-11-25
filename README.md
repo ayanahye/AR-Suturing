@@ -9,4 +9,4 @@ The data from the Cut folder is taken from: https://www.kaggle.com/datasets/ibra
 ### Structure
 - **01-segment.py** contains the script for segmenting the video frames into patient skin, doctor gloves, tools, and cut based on color by creating masks for each component and combining them into single colored result image.
 - **02-cut-detection.py** contains script for using wound detector pretrained model via api and saves results on 4 images in detected_Cut with exact positions saved to inference_result.json.
-- **test_on_video.py** contains script for testing cut detector on live video surgery, uses tiling to get cut within tiles, and multithreading to speed up the process.
+- **test_on_video.py** contains script for testing cut detector on live video surgery
