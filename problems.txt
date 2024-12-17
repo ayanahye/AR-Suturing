@@ -1,5 +1,7 @@
 Problems
 1. using API for cut detection takes too long
 2. need to segment the tools, hands, sutures too
+3. API rate limits... 
 
-API rate limits... 
+Updated Problems
+1. Hard to find dataset with binary masks for cuts 
