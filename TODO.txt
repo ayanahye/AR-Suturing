@@ -1,0 +1,16 @@
+Calculate the arrow directions for guided knot tying:
+(High Level Algorithm)
+    1. Extraction
+        - extract coordinates for segmented cut edges
+        - extract coordinates for the surgeons hand position
+        - thread, surgical instruments
+    2. Define Pulling Directions
+        - determined by expert guidance or some predefined knot-tying algorithm we create
+    3. Visualize Arrows
+        - generate vectors for arrows and send them to engine
+            - easy computations of angles, distances
+            - point from the hand with predefine length
+        - direction the arrow should point and length of how long to draw the arrow
+            - start point is where the surgeons hand is
+            - end of the vector is where we want the arrow to point (in direction of knot pulling)
+
