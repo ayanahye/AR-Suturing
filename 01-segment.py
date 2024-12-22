@@ -73,8 +73,8 @@ def color_segment(frame):
 
     return result
 
-segmented_folder = 'segmented_frames'
-original_folder = 'original_frames'
+segmented_folder = 'segmented_frames_longer2'
+original_folder = 'original_frames_longer2'
 os.makedirs(segmented_folder, exist_ok=True)
 os.makedirs(original_folder, exist_ok=True)
 
@@ -92,21 +92,23 @@ while True:
     segmented_frame = color_segment(frame)
     
     # save every 10th segmented frame
-    if frame_count % 10 == 0:
+    if (frame_count % 15 == 0):
         segmented_output_path = os.path.join(segmented_folder, f'frame_{frame_count:04d}.jpg')
         cv2.imwrite(segmented_output_path, segmented_frame)
     
-    # save the first 100 original frames
-    if frame_count < 100:
+    # save the first 500 original frames
+    if (frame_count % 15 == 0):
         original_output_path = os.path.join(original_folder, f'frame_{frame_count:04d}.jpg')
         cv2.imwrite(original_output_path, frame)
     
     frame_count += 1
     
     # display the segmented frame
+    '''
     cv2.imshow('segmented frame', segmented_frame)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break  # exit loop if q is pressed
+    '''
 
 video.release()
 cv2.destroyAllWindows()

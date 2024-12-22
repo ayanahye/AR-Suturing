@@ -14,3 +14,4 @@ The data from the train_images_sample and train_masks_sample is taken from: http
 - **test_on_video.py** contains script for testing cut detector on live video surgery
 - **Full_U_Net_Cuts.ipynb** contains the python notebook for UNET model trained on wounds.
 - **Edge_Tracing.py** contains python script to generate green edge around cut on actual image using mask.
+- **SAM_Test.ipynb** contains python notebook for testing the Segment Anything Model to generate masks for images in the original_frames_longer2 data.

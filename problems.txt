@@ -5,3 +5,4 @@ Problems
 
 Updated Problems
 1. Hard to find dataset with binary masks for cuts 
+2. Segment Anything Model is not able to segment the cut (attempted 3 images) and also sometimes does not segment the patient's skin.
